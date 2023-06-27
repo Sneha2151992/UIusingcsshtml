@@ -1,0 +1,132 @@
+﻿*{
+    margin:0;
+    padding: 0;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-radius: 50%;
+    border: 10px;
+}
+    .logo img {
+        width: 20%;
+        border-color: white;
+        border-radius: 50%;
+        border:10px;
+        
+    }
+.myfirstnav {
+    display: flex;
+    background-color:forestgreen;
+ 
+}
+.myfirstnavlist {
+    width: 50%;
+    /*background-color: black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+    .myfirstnavlist li {
+        list-style: none;
+        padding: 22px 15px;
+    }
+        .myfirstnavlist li a {
+            text-decoration: none;
+            color: white;
+
+        }
+        .myfirstnavlist li a:hover {
+            text-decoration: none;
+            color: grey;
+        }
+.myfirstrightnav {
+    /*background-color: black;*/
+    width: 50%;
+    text-align: right;
+    justify-content:center;
+    align-content:center;
+    padding:20px;
+}
+#search{
+    border-radius:40%;
+    background-color:grey;
+    font-size:medium;
+    padding:5px;
+    
+}
+.background {
+    background: rgba(0, 0, 0, 0.7)url(/images/img25.jpg);
+    background-size: cover;
+}
+
+.main-box {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 80%;
+    padding-top: 150px;
+    padding-left: 700px;
+}
+.firstsection{
+    height:100vh;
+}
+.firsthalf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf {
+    
+}
+.secondhalf img {
+    border-radius:  40%;
+    border-color:white;
+    width:80%
+}
+.myfirstpara{
+    font-size:xx-large;
+}
+.btn {
+    text-decoration: none;
+    cursor:pointer;
+   /* margin :6px;*/
+    padding:8px;
+    border-radius:3px;
+    background:none;
+    border-color:white;   
+}
+
+
+    .btn:hover {
+        text-decoration: none;
+        color: grey;
+    }
+.firstmaincontent {
+    background-color: green;
+    display: flex;
+    /*max-height:90px;*/
+}
+.mymainclass{
+    padding-left:325px;
+}
+.mynextmain
+{
+    padding-left:25px;
+}
+.mymainpara {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
